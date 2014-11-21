@@ -1,0 +1,47 @@
+2014-11-11 09:43:26 Error: [MissingControllerException] Controller class IsdinvController could not be found.
+Exception Attributes: array (
+  'class' => 'IsdinvController',
+  'plugin' => NULL,
+)
+Request URL: /isdinv/index.php/isdinv/
+Stack Trace:
+#0 C:\inetpub\wwwroot\isdinv\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\inetpub\wwwroot\isdinv\index.php(41): require('C:\inetpub\wwwr...')
+#2 {main}
+2014-11-21 11:19:09 Error: [MissingViewException] View file "C:\inetpub\wwwroot\isdinv\app\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\inetpub\\wwwroot\\isdinv\\app\\View\\Users\\login.ctp',
+)
+Request URL: /index.php/users/login
+Stack Trace:
+#0 C:\inetpub\wwwroot\isdinv\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\inetpub\wwwroot\isdinv\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\inetpub\wwwroot\isdinv\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\inetpub\wwwroot\isdinv\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\inetpub\wwwroot\isdinv\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 C:\inetpub\wwwroot\isdinv\index.php(41): require('C:\inetpub\wwwr...')
+#6 {main}
+2014-11-21 11:42:30 Error: [MissingActionException] Action UsersController::login.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login.php',
+)
+Request URL: /index.php/users/login.php
+Stack Trace:
+#0 C:\inetpub\wwwroot\isdinv\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\inetpub\wwwroot\isdinv\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\inetpub\wwwroot\isdinv\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 C:\inetpub\wwwroot\isdinv\index.php(41): require('C:\inetpub\wwwr...')
+#4 {main}
+2014-11-21 12:12:58 Error: [MissingActionException] Action UsersController::login.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login.php',
+)
+Request URL: /index.php/users/login.php
+Stack Trace:
+#0 C:\inetpub\wwwroot\isdinv\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\inetpub\wwwroot\isdinv\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\inetpub\wwwroot\isdinv\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 C:\inetpub\wwwroot\isdinv\index.php(41): require('C:\inetpub\wwwr...')
+#4 {main}
